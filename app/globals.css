@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sakura-pink: #ec4899;
+  --sakura-light: #fdf2f8;
+}
+
+body {
+  @apply bg-gradient-to-br from-pink-50 via-purple-50 to-blue-50 min-h-screen;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-pink-100 rounded-full;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-pink-300 rounded-full hover:bg-pink-400;
+}
+
