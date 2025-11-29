@@ -37,6 +37,7 @@ Instead of manually copying buckets, dealing with gcloud CLI commands, and troub
 ## Features
 
 <img width="913" height="915" alt="image" src="https://github.com/user-attachments/assets/c281b1ef-1e59-4f90-b181-f90eae35b9ac" />
+
 - **gcloud Authentication** - Easy Google Cloud authentication
 - **Backup Selection** - Browse and select backups from Firebase Storage
 - **Restore Wizard** - Step-by-step restore process with progress tracking
