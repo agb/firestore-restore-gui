@@ -1,13 +1,29 @@
 {
-  "name": "firestore-backup-restore-gui",
-  "version": "1.0.0",
+  "name": "@agb-npm/firestore-backup-restore-gui",
+  "version": "1.0.1",
   "description": "Beautiful GUI for Firestore backup restore operations",
-  "private": true,
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "keywords": [
+    "firestore",
+    "firebase",
+    "backup",
+    "restore",
+    "gui",
+    "nextjs",
+    "typescript",
+    "web-interface"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agb/firestore-restore-gui.git"
   },
   "dependencies": {
     "next": "14.2.5",
