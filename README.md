@@ -2,10 +2,13 @@
 
 Beautiful, user-friendly web interface for restoring Firestore database backups. This tool simplifies the process of restoring Firebase Firestore backups with an intuitive step-by-step wizard.
 
+📦 **Available on npm:** [`@agb-npm/firestore-backup-restore-gui`](https://www.npmjs.com/package/@agb-npm/firestore-backup-restore-gui)
+
 ![Firestore Restore GUI](https://img.shields.io/badge/Firestore-Restore-pink?style=for-the-badge)
 ![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
 ![License](https://img.shields.io/badge/License-MIT-pink?style=for-the-badge)
+![npm](https://img.shields.io/npm/v/@agb-npm/firestore-backup-restore-gui?style=for-the-badge&logo=npm)
 
 ## Why This Tool?
 
@@ -55,8 +58,30 @@ Instead of manually copying buckets, dealing with gcloud CLI commands, and troub
 
 ### Installation
 
+#### Option 1: Install from npm (Recommended)
+
 ```bash
-# Clone or download this repository
+# Install the package globally
+npm install -g @agb-npm/firestore-backup-restore-gui
+
+# Or install locally in your project
+npm install @agb-npm/firestore-backup-restore-gui
+```
+
+If installed globally, you can run:
+```bash
+# Navigate to the installed package directory
+cd $(npm root -g)/@agb-npm/firestore-backup-restore-gui
+
+# Start the development server
+npm run dev
+```
+
+#### Option 2: Clone from GitHub
+
+```bash
+# Clone the repository
+git clone https://github.com/agb/firestore-restore-gui.git
 cd firestore-restore-gui
 
 # Install dependencies
@@ -73,6 +98,14 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+### npm Package
+
+📦 **Package:** [`@agb-npm/firestore-backup-restore-gui`](https://www.npmjs.com/package/@agb-npm/firestore-backup-restore-gui)
+
+```bash
+npm install @agb-npm/firestore-backup-restore-gui
+```
 
 ## Usage Guide
 
