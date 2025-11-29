@@ -14,7 +14,7 @@ Beautiful, user-friendly web interface for restoring Firestore database backups.
 When trying to restore Firestore backups, you might encounter this frustrating error:
 
 ```
-INVALID_ARGUMENT: Bucket miraku-japan.firebasestorage.app is in location us-central1. 
+INVALID_ARGUMENT: Bucket your-project.firebasestorage.app is in location us-central1. 
 This database can only operate on buckets spanning location asia or asia-northeast1.
 ```
 
