@@ -1,6 +1,6 @@
 # Firestore Backup Restore GUI
 
-Beautiful, user-friendly web interface for restoring Firestore database backups. This tool simplifies the process of restoring Firebase Firestore backups with an intuitive step-by-step wizard.
+User-friendly web interface for restoring Firestore database backups. This tool simplifies the process of restoring Firebase Firestore backups with an intuitive step-by-step wizard.
 
 📦 **Available on npm:** [`@agb-npm/firestore-backup-restore-gui`](https://www.npmjs.com/package/@agb-npm/firestore-backup-restore-gui)
 
