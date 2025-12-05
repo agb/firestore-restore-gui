@@ -245,14 +245,6 @@ Start restore operation (POST with body: `{backupPath, projectId, databaseId}`)
 ### `/api/restore/status?operationName=OP_NAME&projectId=PROJECT_ID&databaseId=DB_ID`
 Get restore operation status
 
-## UI Design
-
-The GUI follows the Sakura theme:
-- **Colors**: Pink and light pink tones (`pink-50`, `pink-100`, `pink-300`, `pink-400`, `pink-500`)
-- **Style**: Clean, minimalist design
-- **UX**: Intuitive step-by-step wizard
-- **Responsive**: Works on all screen sizes
-
 ## Troubleshooting
 
 ### gcloud CLI Not Found
