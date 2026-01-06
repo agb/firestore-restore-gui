@@ -318,12 +318,6 @@ MIT License - See [LICENSE](LICENSE) for details.
 - Powered by Google Cloud Platform
 - Icons from Lucide React
 
-## Support
-
-For issues or questions:
-1. Check the Troubleshooting section
-2. Open an issue on GitHub
-3. Review the detailed logs in the GUI
 
 ---
 
